@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Site Natalino</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Feliz Natal!</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#quem-somos">Quem Somos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+      <h2>Cartinha para o Papai Noel</h2>
+      <form id="cartinha-form">
+        <label for="nome">Seu nome:</label><br />
+        <input type="text" id="nome" name="nome" required /><br />
+
+        <label for="cartinha">Escreva sua cartinha para o Papai Noel:</label><br />
+        <textarea id="cartinha" rows="5" required></textarea><br />
+
+        <button type="submit">Enviar Cartinha</button>
+      </form>
+      <div id="mensagem-envio"></div>
+    </section>
+
+    <section id="quem-somos" class="section">
+      <h2>Quem Somos</h2>
+      <p>Somos um grupo apaixonado pelo Natal, espalhando alegria, esperança e magia para toda a família.</p>
+    </section>
+
+    <section id="contato" class="section">
+      <h2>Contato</h2>
+      <p>Quer falar conosco? Envie um email para <a href="mailto:natal@exemplo.com">natal@exemplo.com</a> ou ligue para (11) 1234-5678.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Natal Encantado - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="../natal/script.js"></script>
+</body>
+</html>
